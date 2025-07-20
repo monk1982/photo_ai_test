@@ -1,6 +1,5 @@
 streamlit
 google.generativeai
 pillow
-cv2
+opencv-python
 tkinter
-os
