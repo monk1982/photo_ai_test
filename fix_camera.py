@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2 as cv
 
-def main():
+def my_opencv():
     st.set_page_config(page_title="Streamlit WebCam App")
     st.title("Webcam Display Steamlit App")
     st.caption("Powered by OpenCV, Streamlit")    
@@ -22,5 +22,4 @@ def main():
         cap.release()
         cv.destroyAllWindows()
 
-if __name__ == "__main__":
-    main()
+my_opencv()
